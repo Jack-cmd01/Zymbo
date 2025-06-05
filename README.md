@@ -46,7 +46,6 @@ http://localhost/Zymbo/index.html
 - Sistema de mensagens estilizadas para sucesso e erro
 - Integração com banco de dados via mysqli
 
---
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -88,6 +87,8 @@ Zymbo/
 │   └── (demais pacotes)                                                                                                                                                                
 │                                                                                                                                                                                        
 └── composer.json               ← Arquivo de controle de dependências (Sem uso no momento)                                                                                                
+
+
 
 
 
