@@ -56,7 +56,7 @@ http://localhost/Zymbo/index.html
 - XAMPP (Ambiente de desenvolvimento local)
 
 
-⚙️  Estrutura do Projeto  ⚙️
+# ⚙️  Estrutura do Projeto  ⚙️
 
 Zymbo/                                                                                                                                                                                    
 ├── public/                     ← Arquivos que são diretamente acessíveis pelo navegador                                                                                                
@@ -88,7 +88,7 @@ Zymbo/
 │                                                                                                                                                                                        
 └── composer.json               ← Arquivo de controle de dependências (Sem uso no momento)                                                                                                
 
-
+#
 
 
 
@@ -99,3 +99,4 @@ cd C:/ADS/D1/Programacao_De_Computadores/Mentoria_Karla_Sartin
 <Desenvolvido por:"João Carlos de Souza Carvalho" RGM:"36027022">                                                                                                                        
 <Desenvolvido por:"Pedro Henrique Mendes dos Santos" RGM:"35563991">                                                                                                                    
 </UDF>
+                                                                                                                                                                                        
