@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Cadastro de Evento - Zymbo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+
+
+    <style>
+    select, .select-wrapper select, input[type="date"], input[type="time"] {
+        background-color: #252525 !important;
+        border: 2px solid #41414183 !important;
+        color: #afafaf !important;
+        min-height: 40px !important;
+        min-width: 80px !important;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator,
+    input[type="time"]::-webkit-calendar-picker-indicator {
+        opacity: 1 !important;
+        display: block !important;
+        cursor: pointer !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    </style>
+</head>
+
+<body class="subpage">
+
+<!-- Cabeçalho -->
+<header id="header" class="alt">
+    <div class="logo"><a href="cadastroEv.html">Zymbo <span>Seu Evento</span></a></div>
+    <a href="#menu"><span>Menu</span></a>
+</header>
+
+<!-- Navegação -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="login.html">Acesse sua conta</a></li>
+        <li><a href="cadastroEv.html">Crie seu evento</a></li>
+    </ul>
+</nav>
+
+<!-- Conteúdo Principal -->
+<div id="main" class="container">
+
+    <h3>Cadastro de Evento</h3>
+
+    <form method="post" action="salvarEV.php">
+        <div class="row uniform">
+
+            <div class="12u$">
+                <input type="text" name="tipoEvento" id="tipoEvento" placeholder="Tipo de Evento  (ex: Festa, Workshop, Palestra)" required>
+            </div>
+
+            <div class="12u$">
+                <div class="select-wrapper">
+                    <select name="modalidade" id="modalidade" required>
+                        <option value="online">Presencial</option>
+                        <option value="presencial">Online</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="6u 12u$(xsmall)">
+                <input type="text" name="valor" id="valor" placeholder="Valor  (ex: Grátis ou R$ 50,00)" required>
+            </div>
+
+            <div class="6u$ 12u$(xsmall)">
+                <input type="text" name="localizacao" id="localizacao" placeholder="Localização  (ex: Quadra 21, Conj 7)" required>
+            </div>
+
+            <div class="6u 12u$(xsmall)">
+                <input type="time" name="horario" id="horario" style="text-align: center;" required>
+            </div>
+
+            <div class="6u$ 12u$(xsmall)">
+                <input type="date" name="data" id="data" style="text-align: center;" required>
+            </div>
+
+            <div class="12u$">
+                <textarea name="descricao" id="descricao" placeholder="Descrição do evento" rows="6" required></textarea>
+            </div>
+
+            <div class="12u$">
+                <ul class="actions">
+                    <li><input type="submit" value="Cadastrar Evento" class="special"></li>
+                    <li><input type="reset" value="Limpar" class="alt"></li>
+                </ul>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <h2>Fale Conosco</h2>
+        <form action="#" method="post">
+            <div class="field half first">
+                <label for="name">Nome</label>
+                <input name="name" id="name" type="text" placeholder="Nome">
+            </div>
+            <div class="field half">
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" placeholder="Email">
+            </div>
+            <div class="field">
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" rows="6" placeholder="Mensagem"></textarea>
+            </div>
+            <ul class="actions">
+                <li><input value="Enviar Mensagem" class="button alt" type="submit"></li>
+            </ul>
+        </form>
+
+        <ul class="icons">
+            <li><a href="https://x.com/Zymbo_eventos" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.facebook.com/zymbo.2025/" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/zymboeventos/" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

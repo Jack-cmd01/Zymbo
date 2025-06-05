@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <title>Login - Minha Conta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body class="subpage">
+
+    <!-- Cabeçalho -->
+    <header id="header" class="alt">
+        <div class="logo"><a href="generic.html">Minha Conta</a></div>
+        <a href="#menu"><span>Menu</span></a>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="login.html">Acessar conta</a></li>
+			<li><a href="cadastroEv.html">Criar evento</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção de Login -->
+    <section id="post" class="wrapper bg-img" data-bg="banner2.jpg">
+        <div class="inner">
+            <article class="box">
+                <header>
+                    <h2>cadastrar</h2>
+                    <p>Preencha o formulário para criar sua conta</p>
+                </header>
+                <div class="content">
+                    <form action="salvar.php" method="POST">
+                        <div class="field">
+                            <label for="name">Nome</label>
+                            <input type="text" name="nome" id="name" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+                        <div class="field">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="senha" required>
+                        </div>
+                        <br><ul class="actions" style="text-align:center;">
+                            <input type="submit" value="Criar Conta" class="button alt">
+                        </ul>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <p>&copy; @Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>ZYMBO</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .carousel-control-prev,
+        .carousel-control-next {
+            top: 50%;
+            transform: translateY(-50%);
+            background: none !important;
+            opacity: 1 !important;
+            z-index: 15;
+        }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+            background: none !important;
+            opacity: 0.9 !important;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: transparent;
+        }
+
+        .carousel-item {
+            position: relative;
+        }
+
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .carousel-caption-custom {
+            position: absolute;
+            top: 80%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            transform: translateY(-50%);
+            z-index: 10;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.329);
+        }
+
+        .carousel-caption-custom h5 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        .carousel-caption-custom p {
+            font-size: 1.2em;
+        }
+
+        #card-section {
+            background-image: url('images/banner2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 60px 20px;
+        }
+
+        .card {
+            width: 90%;
+            max-width: 300px;
+            margin: auto;
+        }
+
+        .card img {
+            height: 280px;
+            object-fit: cover;
+        }
+
+        #zero2 {
+            color: #ffffff;
+        }
+
+        #zero2 h2 {
+            color: #ffcc00;
+        }
+
+        #zero2 p {
+            color: #eeeeee;
+        }
+
+        #zero2 a {
+            color: #00ffff;
+        }
+
+        #zero2 .button.alt {
+            color: #000000;
+            background-color: #ffcc00;
+        }
+
+        #zero1 {
+            color: #ffffff;
+        }
+
+        #zero1 h2 {
+            color: #00ffff;
+        }
+
+        #zero1 p {
+            color: #eeeeee;
+        }
+
+        #zero1 a {
+            color: #00ffff;
+        }
+
+        #zero1 .button.alt {
+            color: #000000;
+            background-color: #ffcc00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header" class="alt">
+        <div class="logo">
+            <a href="index.html">Zymbo <span>Eventos</span></a>
+        </div>
+        <a href="#menu"><span>Menu</span></a>
+    </header>
+
+
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="login.html">Acessar conta</a></li>
+            <li><a href="cadastroEv.html">Criar evento</a></li>
+            <li><a href="config.php">Configurações</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="banner" class="bg-img" data-bg="banner8.png">
+        <div class="inner">
+            <header>
+                <h1>Zymbo</h1>
+            </header>
+        </div>
+        <a href="#zero1" class="more">Learn More</a>
+    </section>
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Banner.jpg" class="d-block w-100" alt="evento">
+                <div class="carousel-caption-custom">
+                    <h5>Workshop</h5>
+                    <p>Dias 01, 02 e 03 de Junho</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/imgEvento1.jpg" class="d-block w-100" alt="evento">
+                <div class="carousel-caption-custom">
+                    <h5>Moto Capital</h5>
+                    <p>Shows e muito mais..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/imgEvento2.jpg" class="d-block w-100" alt="evento">
+                <div class="carousel-caption-custom">
+                    <h5>Libertadores</h5>
+                    <p>Atlético x Palmeiras</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <i class="fa-solid fa-angles-left fa-2x" style="color: white;"></i>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <i class="fa-solid fa-angles-right fa-2x" style="color: white;"></i>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <section id="zero1" class="wrapper post bg-img" data-bg="banner5.jpg">
+        <div class="inner">
+            <article class="box">
+                <header>
+                    <h2>Zymbo Indica 🧠</h2>
+                    <p>Curadoria de Experiências Autênticas</p>
+                </header>
+                <div class="content">
+                    <p>você acessa uma curadoria semanal feita por quem vive o mundo da música, arte, gastronomia e cultura. Esqueça
+                        os algoritmos: aqui quem sugere é gente de verdade, com olhar sensível e boas histórias pra contar.</p>
+                </div>
+                <footer>
+                    <a href="404.html" class="button alt">Saiba Mais</a>
+                </footer>
+            </article>
+        </div>
+        <a href="404.html" class="more">Saiba Mais</a>
+    </section>
+
+
+
+
+    <section id="card-section" class="py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card">
+                    <img src="images/card1.jpg" class="card-img-top" alt="imagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Workshop</h5>
+                        <p class="card-text">Participe deste workshop incríveil! Aprenda, conecte-se e transforme ideias em
+                            ação. Vagas limitadas, inscreva-se já!</p>
+                        <a href="404.html"><button class="btn btn-primary">Participar</button></a>
+                        <a href="404.html"><button class="btn btn-primary">Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/card2.jpg" class="card-img-top" alt="imagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Caminhada</h5>
+                        <p class="card-text">Junte-se a nós para uma caminhada revigorante! Agora no Parque da Cidade em
+                            Brasília. Venha viver essa experiência!</p>
+                        <a href="404.html"><button class="btn btn-primary">Participar</button></a>
+                        <a href="404.html"><button class="btn btn-primary">Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/card3.jpg" class="card-img-top" alt="imagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Circo</h5>
+                        <p class="card-text">Encante-se com a magia do circo! Risos, acrobacias e surpresas para todas as
+                            idades. Diversão garantida, venha se surpreender!</p>
+                        <a href="404.html"><button class="btn btn-primary">Participar</button></a>
+                        <a href="404.html"><button class="btn btn-primary">Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/card4.jpg" class="card-img-top" alt="imagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Futebol</h5>
+                        <p class="card-text">Mostre seu talento no nosso campeonato de futebol! Emoção, garra e muitos gols
+                            te esperam. Monte seu time e entre em campo!</p>
+                        <a href="404.html"><button class="btn btn-primary">Participar</button></a>
+                        <a href="404.html"><button class="btn btn-primary">Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/card5.jpg" class="card-img-top" alt="imagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Show</h5>
+                        <p class="card-text">Prepare-se para uma noite inesquecível! Música, energia e muita emoção te
+                            esperam. Brasília vai tremer !</p>
+                        <a href="404.html"><button class="btn btn-primary">Participar</button></a>
+                        <a href="404.html"><button class="btn btn-primary">Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/card6.jpg" class="card-img-top" alt="imagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Viagem</h5>
+                        <p class="card-text">🌟 Participe dos nossos sorteios incríveis! 🌍 Concorra a ingressos para shows,
+                            campeonatos e muito mais! #ZymboSorteios</p>
+                        <a href="404.html"><button class="btn btn-primary">Participar</button></a>
+                        <a href="404.html"><button class="btn btn-primary">Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="zero2" class="wrapper post bg-img" data-bg="banner3.jpg">
+        <div class="inner">
+            <article class="box">
+                <header>
+                    <h2>Descubra o Poder do Zymbo Pro!</h2>
+                    <p>Promoção válida até 30/06/2025</p>
+                </header>
+                <div class="content">
+                    <p>Quer turbinar sua experiência em eventos? Com acesso exclusivo a sorteios, conteúdos VIP e descontos
+                        imperdíveis! Aproveite agora e transforme seu jeito de curtir os melhores momentos. – junte-se à nossa
+                        comunidade !</p>
+                </div>
+                <footer><a href="404.html" class="button alt">Saiba mais</a>
+                </footer>
+            </article>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="inner">
+
+            <h2>Fale conosco</h2>
+
+            <form action="404.html" method="post">
+
+                <div class="field half first">
+                    <label for="name">Nome</label>
+                    <input name="name" id="name" type="text" placeholder="Nome">
+                </div>
+                <div class="field half">
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" placeholder="Email">
+                </div>
+                <div class="field">
+                    <label for="message">Messagem</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Messagem"></textarea>
+                </div>
+                <ul class="actions">
+                    <li><input value="Enviar" class="button alt" type="submit"></li>
+                </ul>
+            </form>
+
+            <ul class="icons">
+                <li><a href="https://x.com/Zymbo_eventos" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/zymbo.2025/" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/zymboeventos/" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
