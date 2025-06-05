@@ -74,20 +74,20 @@ Zymbo/
 │       └── images/                                                                                                                                                                    
 │           └── imagens.jpg     ← Imagens e icones diversos                                                                                                                            
 │                                                                                                                                                                                        
-├── actions/                    ← “Controladores” no sentido mais simples: scripts que recebem formulários e fazem INSERT/UPDATE/DELETE
-│   ├── salvar.php              ← Recebe o POST de cadastro de usuário (cadastra no banco)
-│   ├── salvarEv.php            ← Recebe o POST de cadastro de evento (cadastra no banco)
-│   ├── verifica.php            ← Recebe o POST de login (verifica credenciais)
-│   └── excluir.php             ← Recebe a chamada para deletar um evento (via GET ou POST)
-│
-├── config/                     ← Arquivos de configuração, constantes, chaves, etc.
-│   └── config.php              ← Exemplo: Configurações extras de Usuários.
-│
-├── vendor/                     ← Dependências instaladas via Composer (PHPMAILER)
-│   ├── autoload.php
-│   └── (demais pacotes)
-│
-└── composer.json               ← Arquivo de controle de dependências (Sem uso no momento)
+├── actions/                    ← “Controladores” no sentido mais simples: scripts que recebem formulários e fazem INSERT/UPDATE/DELETE                                                
+│   ├── salvar.php              ← Recebe o POST de cadastro de usuário (cadastra no banco)                                                                                                
+│   ├── salvarEv.php            ← Recebe o POST de cadastro de evento (cadastra no banco)                                                                                                
+│   ├── verifica.php            ← Recebe o POST de login (verifica credenciais)                                                                                                        
+│   └── excluir.php             ← Recebe a chamada para deletar um evento (via GET ou POST)                                                                                            
+│                                                                                                                                                                                        
+├── config/                     ← Arquivos de configuração, constantes, chaves, etc.                                                                                                    
+│   └── config.php              ← Exemplo: Configurações extras de Usuários.                                                                                                            
+│                                                                                                                                                                                        
+├── vendor/                     ← Dependências instaladas via Composer (PHPMAILER)                                                                                                        
+│   ├── autoload.php                                                                                                                                                                    
+│   └── (demais pacotes)                                                                                                                                                                
+│                                                                                                                                                                                        
+└── composer.json               ← Arquivo de controle de dependências (Sem uso no momento)                                                                                                
 
 
 
