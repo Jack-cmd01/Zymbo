@@ -46,7 +46,7 @@ http://localhost/Zymbo/index.html
 - Sistema de mensagens estilizadas para sucesso e erro
 - Integração com banco de dados via mysqli
 
--
+--
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -59,21 +59,21 @@ http://localhost/Zymbo/index.html
 
 ⚙️  Estrutura do Projeto  ⚙️
 
-Zymbo/
-├── public/                     ← Arquivos que são diretamente acessíveis pelo navegador
-│   ├── index.html              ← Página inicial (landing Page)
-│   ├── cadastro.html           ← Formulário de cadastro de usuário
-│   ├── cadastroEv.html         ← Formulário de cadastro de evento
-│   ├── login.html              ← Formulário de login
-│   ├── emConstrucao.html       ← Página “Em construção” (404 ou recurso não disponível)
-│   └── assets/                 ← Arquivos estáticos (CSS, JavaScript, imagens)
-│       ├── css/
-│       │   └── style.css       ← Estilos globais do projeto
-│       ├── js/
-│       │   └── main.js         ← Scripts JavaScript
-│       └── images/
-│           └── imagens.jpg     ← Imagens e icones diversos
-│
+Zymbo/                                                                                                                                                                                    
+├── public/                     ← Arquivos que são diretamente acessíveis pelo navegador                                                                                                
+│   ├── index.html              ← Página inicial (landing Page)                                                                                                                        
+│   ├── cadastro.html           ← Formulário de cadastro de usuário                                                                                                                    
+│   ├── cadastroEv.html         ← Formulário de cadastro de evento                                                                                                                    
+│   ├── login.html              ← Formulário de login                                                                                                                                
+│   ├── emConstrucao.html       ← Página “Em construção” (404 ou recurso não disponível)                                                                                                
+│   └── assets/                 ← Arquivos estáticos (CSS, JavaScript, imagens)                                                                                                        
+│       ├── css/                                                                                                                                                                        
+│       │   └── style.css       ← Estilos globais do projeto                                                                                                                        
+│       ├── js/                                                                                                                                                                        
+│       │   └── main.js         ← Scripts JavaScript                                                                                                                                    
+│       └── images/                                                                                                                                                                    
+│           └── imagens.jpg     ← Imagens e icones diversos                                                                                                                            
+│                                                                                                                                                                                        
 ├── actions/                    ← “Controladores” no sentido mais simples: scripts que recebem formulários e fazem INSERT/UPDATE/DELETE
 │   ├── salvar.php              ← Recebe o POST de cadastro de usuário (cadastra no banco)
 │   ├── salvarEv.php            ← Recebe o POST de cadastro de evento (cadastra no banco)
@@ -97,4 +97,4 @@ cd C:/ADS/D1/Programacao_De_Computadores/Mentoria_Karla_Sartin
 <Desenvolvido por:"Guilherme Tavares Pinheiro Moura" RGM:"35974664">                                                                                                                    
 <Desenvolvido por:"João Carlos de Souza Carvalho" RGM:"36027022">                                                                                                                        
 <Desenvolvido por:"Pedro Henrique Mendes dos Santos" RGM:"35563991">                                                                                                                    
-</UDF>                                                                                                                                                                                    
+</UDF>                                                                                                                                                                                                
